@@ -11,7 +11,7 @@ list_all_my_cpp_files_command="ls "${my_cpp_files_path_folder}
 
 
 # 正则表达式，筛选符合条件的文件，一位数字，然后以c或cpp结尾
-my_cpp_filename_regrex="3035947245-([A-Z])\.cpp"
+my_cpp_filename_regrex="学生号-([A-Z])\.cpp"
 
 # echo $list_all_my_cpp_files_command
 # 正则表达式，筛选符合条件的文件，一位数字，然后以cpp结尾
